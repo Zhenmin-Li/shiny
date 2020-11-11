@@ -1,7 +1,7 @@
 
 To build the docker environment:
 
-    docker build . -t p2 --build-arg linux_user_pwd=$SECRET_PWD
+    docker build . -t l17 --build-arg linux_user_pwd=$SECRET_PWD
 
 $SECRET_PWD should be a password you specified.
 
