@@ -22,7 +22,7 @@ ui <- fluidPage(
     
     # Sidebar panel for inputs ----
     sidebarPanel(
-      div("How do super hero powers depend on their moral alignment?"),
+      div("Sentiments of COVID related tweets"),
       
       # Input: Slider for the number of bins ----
       sliderInput("slider", "Time", min = as.Date("2020-02-01"), max =as.Date("2020-10-18"),value=as.Date("2020-02-01"),timeFormat="%Y-%m-%d"),
