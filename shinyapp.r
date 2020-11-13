@@ -15,14 +15,14 @@ data <- read_csv("derived_data/sentiment_afinn_ran.csv")
 ui <- fluidPage(
   
   # App title ----
-  titlePanel("Superhero Powers and Alignment"),
+  titlePanel("Sentiments of COVID related tweets"),
   
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
     
     # Sidebar panel for inputs ----
     sidebarPanel(
-      div("Sentiments of COVID related tweets"),
+      div("How do people's feeling varies under COVID pandemic?"),
       
       # Input: Slider for the number of bins ----
       sliderInput("slider", "Time", min = as.Date("2020-02-01"), max =as.Date("2020-10-18"),value=as.Date("2020-02-01"),timeFormat="%Y-%m-%d"),
